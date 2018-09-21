@@ -1,7 +1,7 @@
 # equalish
 equal^ish, compare two lists to know if they are structurally in equal (alike)
 
-Two list is considered equalish, when:
+Two lists are considered to be equalish, when:
 
 ~~~~ 
 [1, 2, [3, 4], 5] equalish [1,2,[3,4],5] true
@@ -17,7 +17,7 @@ Or it could even be more ~ish by allowing element in different order
 
 It could compare nested list/map structure
 ~~~~ 
-[1, 2, [5,[3,2]], 7] equalish [1, 2, [5,[3,2]], 7] true
+[1, 2, [5,[3,2]], 7, {"a", "1", "b": "2", "c":[11, 12]}] equalish [1, 2, [5,[3,2]], 7, {"a", "1", "b": "2", "c":[11, 12]}] true
 ~~~~ 
 
 
